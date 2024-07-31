@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+background-color: aqua;
+}
+
+h1{
+    justify-content: center;
+    color: black;
+    background-color: aqua;
+    text-align: center;
+}
+
+#web,#app,#pyth,#java{
+    height: 150pxpx;
+    width: 275px;
+    color: black;
+    background-color: blueviolet;
+    justify-content: center;
+    border-radius: 5%;
+    
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.7vmin;
+}
+
+#secmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 1.7vmin;   
+}
+
+button{
+    color: black;
+    border-radius: 5%;
+    background-color: blanchedalmond;
+}
